@@ -1,13 +1,87 @@
 {
   "cars": [
-    { "id": 1, "created": "2015-03-05T12:30:00Z", "last_tuv": "2019-07-01T11:00:00Z", "brand": "VW", "model": "Golf VI", "status": "FREE" },
-    { "id": 2, "created": "2016-02-22T15:16:22Z", "last_tuv": "2017-11-09T14:12:31Z", "brand": "Opel", "model": "Corsa", "status": "FREE" },
-    { "id": 3, "created": "2020-01-05T10:00:00Z", "last_tuv": "2020-01-19T17:54:02Z", "brand": "BMW", "model": "M3", "status": "MAINTENANCE" },
-    { "id": 4, "created": "2012-11-02T09:20:51Z", "last_tuv": "2019-11-01T12:34:56Z", "brand": "VW", "model": "Beatle", "status": "RESERVED" }
+    {
+      "id": 1,
+      "created": "2015-03-05T12:30:00Z",
+      "last_tuv": "2019-07-01T11:00:00Z",
+      "brand": "VW",
+      "model": "Golf VI",
+      "status": "FREE",
+      "location": {
+        "latitude": 51.462074,
+        "longitude": 6.758150
+      }
+    },
+    {
+      "id": 2,
+      "created": "2016-02-22T15:16:22Z",
+      "last_tuv": "2017-11-09T14:12:31Z",
+      "brand": "Opel",
+      "model": "Corsa",
+      "status": "FREE",
+      "location": {
+        "latitude": 51.462112,
+        "longitude": 6.758492
+      }
+    },
+    {
+      "id": 3,
+      "created": "2020-01-05T10:00:00Z",
+      "last_tuv": "2020-01-19T17:54:02Z",
+      "brand": "BMW",
+      "model": "M3",
+      "status": "MAINTENANCE",
+      "location": {
+        "latitude": 51.526377,
+        "longitude": 7.105150
+      }
+    },
+    {
+      "id": 4,
+      "created": "2012-11-02T09:20:51Z",
+      "last_tuv": "2019-11-01T12:34:56Z",
+      "brand": "VW",
+      "model": "Beatle",
+      "status": "RESERVED",
+      "location": {
+        "latitude": 52.383880,
+        "longitude": 9.748757
+      }
+    }
   ],
   "bikes": [
-    { "id": 1, "created": "2018-08-14T12:54:43Z", "model": "QuickBike 300", "serial_no": "C4T61DS", "status": "FREE" },
-    { "id": 2, "created": "2017-06-27T11:17:20Z", "model": "SlowBike 200", "serial_no": "C4T61DT", "status": "RESERVED" },
-    { "id": 3, "created": "2019-01-23T06:46:37Z", "model": "SlowBike 300", "serial_no": "C4R61DA", "status": "MAINTENANCE" }
+    {
+      "id": 1,
+      "created": "2018-08-14T12:54:43Z",
+      "model": "QuickBike 300",
+      "serial_no": "C4T61DS",
+      "status": "FREE",
+      "location": {
+        "latitude": 53.553996,
+        "longitude": 9.991493
+      }
+    },
+    {
+      "id": 2,
+      "created": "2017-06-27T11:17:20Z",
+      "model": "SlowBike 200",
+      "serial_no": "C4T61DT",
+      "status": "RESERVED",
+      "location": {
+        "latitude": 52.507020,
+        "longitude": 13.394582
+      }
+    },
+    {
+      "id": 3,
+      "created": "2019-01-23T06:46:37Z",
+      "model": "SlowBike 300",
+      "serial_no": "C4R61DA",
+      "status": "MAINTENANCE",
+      "location": {
+        "latitude": 49.434941,
+        "longitude": 11.100988
+      }
+    }
   ]
 }
