@@ -42,3 +42,6 @@ The reserve button should send a REST command to the server modifying the approp
 
 #### Admin View
 Cars and bikes shall be created and deleted.
+____________________________
+## Technical Requirements
+There are no technical requirements. You may choose your prefered programming language & framework.
