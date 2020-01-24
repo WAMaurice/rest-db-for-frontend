@@ -25,6 +25,7 @@ Create a frontend application that has two different views:
 2. An admin view
 
 Both views shall retrieve the data from the REST server described above and display them in different ways.
+Users and login handling is not needed, both views can be accessable when calling the application.
 
 #### User View
 The user view shall show a map which displays all cars and bikes and their current status.
